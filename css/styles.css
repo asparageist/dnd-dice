@@ -1,0 +1,68 @@
+body {
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+#score-table {
+  margin-left: 40%;
+  text-align: center;
+  
+}
+
+h1 {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  color: darkred;
+}
+
+input {
+  background-color: rgb(173, 216, 230, 0.5);
+  border-radius: 5px;
+  padding: 7px;
+  margin: 0 auto;
+  width: 30%;
+  border-width: 1px;
+  border-color:  black;
+  letter-spacing: 2px;
+}
+
+button {
+  padding: 10px;
+  margin: 0 auto;
+  border-style: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  width: 30%;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: darkslategray;
+  color: lightgray;
+}
+
+div {
+  text-align: center;
+  flex: 1 0 auto;
+}
+
+header {
+  text-align: center;
+  font-size: 10px;
+}
+
+select {
+  background-color: rgb(173, 216, 230, 0.5);
+  border-radius: 5px;
+  padding: 7px;
+  margin: 0 auto;
+  width: 40%;
+  border-width: 1px;
+  border-color:  black;
+  letter-spacing: 2px;
+}
