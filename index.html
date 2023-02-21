@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>D&D Dice</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <label for="dice-type">Choose Your Weapon:</label>
+    <select id="dice-type">
+      <option value="4">d4</option>
+      <option value="6">d6</option>
+      <option value="8">d8</option>
+      <option value="10">d10</option>
+      <option value="12">d12</option>
+      <option value="20">d20</option>
+      <option value="100">d100</option>
+    </select>
+    <button id="roll-button">Roll!</button>
+  </div>
+  <div>
+    <label for="player-selector">Select:</label>
+    <select id="player-selector">
+      <option value="1">Player 1</option>
+      <option value="2">Player 2</option>
+      <option value="3">Player 3</option>
+      <option value="4">Player 4</option>
+      <option value="5">Player 5</option>
+      <option value="6">Player 6</option>
+    </select>
+  </div>
+  <div>
+    <table id="score-table">
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Player 1: </td>
+          <td id="player-1-score">0</td>
+        </tr>
+        <tr>
+          <td>Player 2: </td>
+          <td id="player-2-score">0</td>
+        </tr>
+        <tr>
+          <td>Player 3: </td>
+          <td id="player-3-score">0</td>
+        </tr>
+        <tr>
+          <td>Player 4: </td>
+          <td id="player-4-score">0</td>
+        </tr>
+        <tr>
+          <td>Player 5: </td>
+          <td id="player-5-score">0</td>
+        </tr>
+        <tr>
+          <td>Player 6: </td>
+          <td id="player-6-score">0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
